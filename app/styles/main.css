@@ -1,0 +1,27 @@
+/* Space out content a bit */
+body {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.myfooter {
+    position: fixed;
+    bottom: 0px;
+    border-top: 1px solid #cccccc;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    z-index: 1000;
+    height: 30px;
+}
+
+/* Introduit des marge au container */
+.mycontainer {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
+.myImage{
+    max-width: 100%;
+}
