@@ -4,6 +4,18 @@ angular.module('devoxxwebApp', [
         'ngResource',
         'ngRoute'
     ])
+    .constant('constants', {
+            urlserver : 'http://localhost:8081/devoxx2014/'
+        }
+    )
+    .run(function ($rootScope) {
+        $rootScope.callbackEmpty = function(){
+            $rootScope.error=null;
+        };
+        $rootScope.callbackError = function(data){
+            $rootScope.error= { message : data.data, code : data.status};
+        };
+    })
     .config(function ($routeProvider) {
         $routeProvider
             .when('/', {
