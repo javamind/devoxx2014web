@@ -8,8 +8,8 @@ Avant de pouvoir utilisé ce projet vous devez disposer de npm et yeoman (yo, gr
 Une fois que vous avez récupéré le projet en local vous devez
 <ul>
 <li>Vous placer dans le répertoire du projet</li>
-<li>Installer grunt localement en lançant la commande npm install</li>
-<li>Mettre à jour les dépendances bower en lançant bower update</li>
+<li>Installer grunt localement en lançant la commande <code>npm install</code></li>
+<li>Mettre à jour les dépendances bower en lançant <code>bower update</code></li>
 </ul>
 
 Pour vérifier le bon fonctionnement de l'application, vous n'avez plus qu'à lancer la commande grunt serve
